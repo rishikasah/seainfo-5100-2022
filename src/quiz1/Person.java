@@ -1,16 +1,18 @@
 package homework2;
 
 public class Person {
-     String name;
-     int age;
-     int id;
 
-    public int getId() {
-        return id;
+    String name;
+    int age;
+    int id;
+
+    public Person(String name, int age, int id) {
+        this.name = name;
+        this.age = age;
+        this.id = id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public Person(){
     }
 
     public String getName() {
@@ -29,19 +31,11 @@ public class Person {
         this.age = age;
     }
 
+    public int getId() {
+        return id;
+    }
 
-
-    public void getid (int id){
+    public void setId(int id) {
         this.id = id;
-        private.int = id;
-
-        public Person(String name, int age, int id){
-            this.name = name;
-            this.age = age;
-            this.id = id
-
-
-        }
-
     }
 }
