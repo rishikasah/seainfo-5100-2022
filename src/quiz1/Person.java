@@ -1,10 +1,22 @@
-package homework2;
+package quiz1;
 
 public class Person {
 
-    String name;
-    int age;
-    int id;
+
+    private String name;
+    private int age;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
+    public Person(){
+    }
 
     public Person(String name, int age, int id) {
         this.name = name;
@@ -12,8 +24,6 @@ public class Person {
         this.id = id;
     }
 
-    public Person(){
-    }
 
     public String getName() {
         return name;
@@ -31,11 +41,4 @@ public class Person {
         this.age = age;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 }
