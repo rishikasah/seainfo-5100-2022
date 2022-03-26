@@ -1,0 +1,15 @@
+Abstract Class -
+ - Can have abstract and non abstract methods.
+ - Does not support multiple inheritance
+ - can have static, nonstatic, final and non final variables
+ - can extend another java class and implement multiple interfaces
+ - can be extended using extends
+ - can have private and protected members
+
+Interface  -
+ - Can only have abstract methods.
+ - Supports multiple inheritance
+ - can only have static and final variables
+ - can only extend another interface
+ - can be implemented using implements keyword
+ - members are public by default
